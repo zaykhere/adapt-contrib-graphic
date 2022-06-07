@@ -25,49 +25,53 @@
       "type": "string",
       "required": false,
       "default": "",
+      "title": "Instrucción",
       "inputType": "Text",
       "validators": [],
-      "help": "This is the instruction text",
+      "help": "Este es el texto de instrucciones.",
       "translatable": true
     },
     "_graphic": {
       "type": "object",
       "required": true,
-      "title": "Graphic",
+      "title": "Gráfico",
       "properties": {
         "alt": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Alternative Text",
+          "title": "Texto alternativo",
           "inputType": "Text",
           "validators": [],
-          "help": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank.",
+          "help": "Una descripción de la imagen; requerido cuando tiene un significado que debe transmitirse al alumno. Para imágenes 'decorativas', déjelo en blanco.",
           "translatable": true
         },
         "large": {
           "type": "string",
           "required": true,
           "default": "",
+          "title": "Larga",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The large sized image for desktop devices"
+          "help": "La imagen de gran tamaño para dispositivos de escritorio."
         },
         "small": {
           "type": "string",
           "required": true,
           "default": "",
+          "title": "Pequeña",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The small sized image for mobile devices"
+          "help": "La imagen de tamaño pequeño para dispositivos móviles."
         },
         "attribution": {
           "type": "string",
           "required": false,
           "default": "",
+          "title": "Atribución",
           "inputType": "Text",
           "validators": [],
-          "help": "Text to be displayed as an attribution",
+          "help": "Texto que se mostrará como una atribución",
           "translatable": true
         },
         "_url": {
@@ -77,14 +81,14 @@
           "Title": "URL",
           "inputType": "Text",
           "validators": [],
-          "help": "When the graphic is selected this is the url it will follow."
+          "help": "Cuando se selecciona el gráfico, esta es la URL que seguirá."
         },
         "_target": {
           "type": "string",
           "required": false,
           "enum": ["_blank", "_self", "_parent", "_top"],
           "default": "",
-          "title": "Target attribute",
+          "title": "Atributo objetivo",
           "inputType": {
             "type": "Select",
             "options": ["_blank", "_self", "_parent", "_top"]
