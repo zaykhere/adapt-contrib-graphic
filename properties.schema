@@ -9,6 +9,7 @@
       "required": true,
       "default": "",
       "inputType": "Text",
+      "title": "Región de Aria",
       "validators": [],
       "translatable": true
     }
@@ -18,6 +19,7 @@
       "type": "string",
       "required": true,
       "enum": ["full-width", "half-width", "both"],
+      "title": "Diseño compatible",
       "default": "both",
       "editorOnly": true
     },
@@ -94,7 +96,7 @@
             "options": ["_blank", "_self", "_parent", "_top"]
           },
           "validators": [],
-          "help": "This targets where to open the link. Acceptable values are '_blank' (opens the linked document in a new window or tab), '_parent' (opens the linked document in the parent frame), '_top' (opens the linked document in the full body of the window) or '_self' (opens the linked document in the same frame as it was selected. If no value is set, the default is '_blank'."
+          "help": "Esto apunta a dónde abrir el enlace. Los valores aceptables son '_blank' (abre el documento vinculado en una nueva ventana o pestaña), '_parent' (abre el documento vinculado en el marco principal), '_top' (abre el documento vinculado en el cuerpo completo de la ventana) o '_self' (abre el documento vinculado en el mismo marco en el que se seleccionó. Si no se establece ningún valor, el valor predeterminado es '_blank')"
         }
       }
     }
