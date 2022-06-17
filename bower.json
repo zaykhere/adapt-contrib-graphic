@@ -7,7 +7,7 @@
   "component" : "graphic",
   "targetAttribute": "_graphic",
   "displayName" : "Graphic",
-  "description": "Graphic component which dynamically displays small and large images of different resolutions based upon device width",
+  "description": "Componente gráfico que muestra dinámicamente imágenes pequeñas y grandes de diferentes resoluciones según el ancho del dispositivo",
   "main": "/js/adapt-contrib-graphic.js",
   "assetFields" : [
     "_graphic.small",
